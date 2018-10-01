@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/IvanVorobei/Sparrow'
   s.authors = { 'Ivan Vorobei' => 'hello@ivanvorobei.by' }
   s.platform = :ios 
-  s.source = { :git => 'https://github.com/IvanVorobei/Sparrow.git', :tag => s.version.to_s }
+  s.source = { :git => 'https://github.com/mhisham/Sparrow.git', :tag => s.version.to_s }
   s.framework = 'UIKit'
   s.requires_arc = true
   s.ios.deployment_target = '8.0'
